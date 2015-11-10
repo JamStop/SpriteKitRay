@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF7E16681BF290EF007754E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E16671BF290EF007754E0 /* AppDelegate.swift */; };
+		BF7E166A1BF290EF007754E0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF7E16691BF290EF007754E0 /* GameScene.sks */; };
+		BF7E166C1BF290EF007754E0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E166B1BF290EF007754E0 /* GameScene.swift */; };
+		BF7E166E1BF290EF007754E0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E166D1BF290EF007754E0 /* GameViewController.swift */; };
+		BF7E16711BF290EF007754E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7E166F1BF290EF007754E0 /* Main.storyboard */; };
+		BF7E16731BF290EF007754E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7E16721BF290EF007754E0 /* Assets.xcassets */; };
+		BF7E16761BF290EF007754E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7E16741BF290EF007754E0 /* LaunchScreen.storyboard */; };
+		BF7E16811BF290EF007754E0 /* SpriteKitRayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E16801BF290EF007754E0 /* SpriteKitRayTests.swift */; };
+		BF7E168C1BF290EF007754E0 /* SpriteKitRayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E168B1BF290EF007754E0 /* SpriteKitRayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF7E167D1BF290EF007754E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7E165C1BF290EF007754E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7E16631BF290EF007754E0;
+			remoteInfo = SpriteKitRay;
+		};
+		BF7E16881BF290EF007754E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7E165C1BF290EF007754E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7E16631BF290EF007754E0;
+			remoteInfo = SpriteKitRay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF7E16641BF290EF007754E0 /* SpriteKitRay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitRay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7E16671BF290EF007754E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF7E16691BF290EF007754E0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BF7E166B1BF290EF007754E0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BF7E166D1BF290EF007754E0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BF7E16701BF290EF007754E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF7E16721BF290EF007754E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF7E16751BF290EF007754E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF7E16771BF290EF007754E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7E167C1BF290EF007754E0 /* SpriteKitRayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitRayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7E16801BF290EF007754E0 /* SpriteKitRayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRayTests.swift; sourceTree = "<group>"; };
+		BF7E16821BF290EF007754E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7E16871BF290EF007754E0 /* SpriteKitRayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitRayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7E168B1BF290EF007754E0 /* SpriteKitRayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRayUITests.swift; sourceTree = "<group>"; };
+		BF7E168D1BF290EF007754E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF7E16611BF290EF007754E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E16791BF290EF007754E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E16841BF290EF007754E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF7E165B1BF290EF007754E0 = {
+			isa = PBXGroup;
+			children = (
+				BF7E16661BF290EF007754E0 /* SpriteKitRay */,
+				BF7E167F1BF290EF007754E0 /* SpriteKitRayTests */,
+				BF7E168A1BF290EF007754E0 /* SpriteKitRayUITests */,
+				BF7E16651BF290EF007754E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7E16651BF290EF007754E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E16641BF290EF007754E0 /* SpriteKitRay.app */,
+				BF7E167C1BF290EF007754E0 /* SpriteKitRayTests.xctest */,
+				BF7E16871BF290EF007754E0 /* SpriteKitRayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7E16661BF290EF007754E0 /* SpriteKitRay */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E16671BF290EF007754E0 /* AppDelegate.swift */,
+				BF7E16691BF290EF007754E0 /* GameScene.sks */,
+				BF7E166B1BF290EF007754E0 /* GameScene.swift */,
+				BF7E166D1BF290EF007754E0 /* GameViewController.swift */,
+				BF7E166F1BF290EF007754E0 /* Main.storyboard */,
+				BF7E16721BF290EF007754E0 /* Assets.xcassets */,
+				BF7E16741BF290EF007754E0 /* LaunchScreen.storyboard */,
+				BF7E16771BF290EF007754E0 /* Info.plist */,
+			);
+			path = SpriteKitRay;
+			sourceTree = "<group>";
+		};
+		BF7E167F1BF290EF007754E0 /* SpriteKitRayTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E16801BF290EF007754E0 /* SpriteKitRayTests.swift */,
+				BF7E16821BF290EF007754E0 /* Info.plist */,
+			);
+			path = SpriteKitRayTests;
+			sourceTree = "<group>";
+		};
+		BF7E168A1BF290EF007754E0 /* SpriteKitRayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E168B1BF290EF007754E0 /* SpriteKitRayUITests.swift */,
+				BF7E168D1BF290EF007754E0 /* Info.plist */,
+			);
+			path = SpriteKitRayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF7E16631BF290EF007754E0 /* SpriteKitRay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7E16901BF290EF007754E0 /* Build configuration list for PBXNativeTarget "SpriteKitRay" */;
+			buildPhases = (
+				BF7E16601BF290EF007754E0 /* Sources */,
+				BF7E16611BF290EF007754E0 /* Frameworks */,
+				BF7E16621BF290EF007754E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitRay;
+			productName = SpriteKitRay;
+			productReference = BF7E16641BF290EF007754E0 /* SpriteKitRay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF7E167B1BF290EF007754E0 /* SpriteKitRayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7E16931BF290EF007754E0 /* Build configuration list for PBXNativeTarget "SpriteKitRayTests" */;
+			buildPhases = (
+				BF7E16781BF290EF007754E0 /* Sources */,
+				BF7E16791BF290EF007754E0 /* Frameworks */,
+				BF7E167A1BF290EF007754E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7E167E1BF290EF007754E0 /* PBXTargetDependency */,
+			);
+			name = SpriteKitRayTests;
+			productName = SpriteKitRayTests;
+			productReference = BF7E167C1BF290EF007754E0 /* SpriteKitRayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF7E16861BF290EF007754E0 /* SpriteKitRayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7E16961BF290EF007754E0 /* Build configuration list for PBXNativeTarget "SpriteKitRayUITests" */;
+			buildPhases = (
+				BF7E16831BF290EF007754E0 /* Sources */,
+				BF7E16841BF290EF007754E0 /* Frameworks */,
+				BF7E16851BF290EF007754E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7E16891BF290EF007754E0 /* PBXTargetDependency */,
+			);
+			name = SpriteKitRayUITests;
+			productName = SpriteKitRayUITests;
+			productReference = BF7E16871BF290EF007754E0 /* SpriteKitRayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7E165C1BF290EF007754E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jimmy Yue";
+				TargetAttributes = {
+					BF7E16631BF290EF007754E0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BF7E167B1BF290EF007754E0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BF7E16631BF290EF007754E0;
+					};
+					BF7E16861BF290EF007754E0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BF7E16631BF290EF007754E0;
+					};
+				};
+			};
+			buildConfigurationList = BF7E165F1BF290EF007754E0 /* Build configuration list for PBXProject "SpriteKitRay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF7E165B1BF290EF007754E0;
+			productRefGroup = BF7E16651BF290EF007754E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7E16631BF290EF007754E0 /* SpriteKitRay */,
+				BF7E167B1BF290EF007754E0 /* SpriteKitRayTests */,
+				BF7E16861BF290EF007754E0 /* SpriteKitRayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF7E16621BF290EF007754E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E166A1BF290EF007754E0 /* GameScene.sks in Resources */,
+				BF7E16761BF290EF007754E0 /* LaunchScreen.storyboard in Resources */,
+				BF7E16731BF290EF007754E0 /* Assets.xcassets in Resources */,
+				BF7E16711BF290EF007754E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E167A1BF290EF007754E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E16851BF290EF007754E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7E16601BF290EF007754E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E166C1BF290EF007754E0 /* GameScene.swift in Sources */,
+				BF7E166E1BF290EF007754E0 /* GameViewController.swift in Sources */,
+				BF7E16681BF290EF007754E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E16781BF290EF007754E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E16811BF290EF007754E0 /* SpriteKitRayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E16831BF290EF007754E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E168C1BF290EF007754E0 /* SpriteKitRayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF7E167E1BF290EF007754E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF7E16631BF290EF007754E0 /* SpriteKitRay */;
+			targetProxy = BF7E167D1BF290EF007754E0 /* PBXContainerItemProxy */;
+		};
+		BF7E16891BF290EF007754E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF7E16631BF290EF007754E0 /* SpriteKitRay */;
+			targetProxy = BF7E16881BF290EF007754E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF7E166F1BF290EF007754E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7E16701BF290EF007754E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF7E16741BF290EF007754E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7E16751BF290EF007754E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF7E168E1BF290EF007754E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF7E168F1BF290EF007754E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF7E16911BF290EF007754E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpriteKitRay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimmy.SpriteKitRay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF7E16921BF290EF007754E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpriteKitRay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimmy.SpriteKitRay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF7E16941BF290EF007754E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpriteKitRayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimmy.SpriteKitRayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitRay.app/SpriteKitRay";
+			};
+			name = Debug;
+		};
+		BF7E16951BF290EF007754E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpriteKitRayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimmy.SpriteKitRayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitRay.app/SpriteKitRay";
+			};
+			name = Release;
+		};
+		BF7E16971BF290EF007754E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpriteKitRayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimmy.SpriteKitRayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpriteKitRay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF7E16981BF290EF007754E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpriteKitRayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimmy.SpriteKitRayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpriteKitRay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF7E165F1BF290EF007754E0 /* Build configuration list for PBXProject "SpriteKitRay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E168E1BF290EF007754E0 /* Debug */,
+				BF7E168F1BF290EF007754E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7E16901BF290EF007754E0 /* Build configuration list for PBXNativeTarget "SpriteKitRay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E16911BF290EF007754E0 /* Debug */,
+				BF7E16921BF290EF007754E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF7E16931BF290EF007754E0 /* Build configuration list for PBXNativeTarget "SpriteKitRayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E16941BF290EF007754E0 /* Debug */,
+				BF7E16951BF290EF007754E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF7E16961BF290EF007754E0 /* Build configuration list for PBXNativeTarget "SpriteKitRayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E16971BF290EF007754E0 /* Debug */,
+				BF7E16981BF290EF007754E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF7E165C1BF290EF007754E0 /* Project object */;
+}
