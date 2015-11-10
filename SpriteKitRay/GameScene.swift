@@ -66,6 +66,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 SKAction.waitForDuration(1.0)
                 ])
             ))
+        
+        let backgroundMusic = SKAudioNode(fileNamed: "background-music-aac.caf")
+        backgroundMusic.autoplayLooped = true
+        addChild(backgroundMusic)
     }
     
     func random() -> CGFloat {
@@ -122,6 +126,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // 4 - Bail out if you are shooting down or backwards
         if (offset.x < 0) { return }
+        
+        runAction(SKAction.playSoundFileNamed("pew-pew-lei.caf", waitForCompletion: false))
         
         // 5 - OK to add now - you've double checked position
         addChild(projectile)
