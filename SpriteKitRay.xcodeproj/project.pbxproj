@@ -18,6 +18,7 @@
 		BF7E169E1BF29284007754E0 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF7E169B1BF29284007754E0 /* background-music-aac.caf */; };
 		BF7E169F1BF29284007754E0 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF7E169C1BF29284007754E0 /* pew-pew-lei.caf */; };
 		BF7E16A01BF29284007754E0 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BF7E169D1BF29284007754E0 /* sprites.atlas */; };
+		BF7E16A21BF29B36007754E0 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E16A11BF29B36007754E0 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BF7E169B1BF29284007754E0 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		BF7E169C1BF29284007754E0 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		BF7E169D1BF29284007754E0 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		BF7E16A11BF29B36007754E0 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BF7E16991BF29284007754E0 /* SpriteKitSimpleGameResources */,
 				BF7E16671BF290EF007754E0 /* AppDelegate.swift */,
 				BF7E166B1BF290EF007754E0 /* GameScene.swift */,
+				BF7E16A11BF29B36007754E0 /* GameOverScene.swift */,
 				BF7E166D1BF290EF007754E0 /* GameViewController.swift */,
 				BF7E166F1BF290EF007754E0 /* Main.storyboard */,
 				BF7E16721BF290EF007754E0 /* Assets.xcassets */,
@@ -289,6 +292,7 @@
 			files = (
 				BF7E166C1BF290EF007754E0 /* GameScene.swift in Sources */,
 				BF7E166E1BF290EF007754E0 /* GameViewController.swift in Sources */,
+				BF7E16A21BF29B36007754E0 /* GameOverScene.swift in Sources */,
 				BF7E16681BF290EF007754E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

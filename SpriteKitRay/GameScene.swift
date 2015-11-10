@@ -49,6 +49,8 @@ extension CGPoint {
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
+    var monstersDestroyed = 0
+    
     let player = SKSpriteNode(imageNamed: "player")
     
     override func didMoveToView(view: SKView) {
@@ -99,7 +101,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         let actionMove = SKAction.moveTo(CGPoint(x: -monster.size.width/2, y: actualY), duration: NSTimeInterval(actualDuration))
         let actionMoveDone = SKAction.removeFromParent()
-        monster.runAction(SKAction.sequence([actionMove, actionMoveDone]))
+        
+        
+        let loseAction = SKAction.runBlock() {
+            let reveal = SKTransition.flipHorizontalWithDuration(0.5)
+            let gameOverScene = GameOverScene(size: self.size, won: false)
+            self.view?.presentScene(gameOverScene, transition: reveal)
+        }
+        monster.runAction(SKAction.sequence([actionMove, loseAction, actionMoveDone]))
     }
     
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -152,6 +161,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         print("Hit")
         projectile.removeFromParent()
         monster.removeFromParent()
+        monstersDestroyed++
+        if (monstersDestroyed > 30) {
+            let reveal = SKTransition.flipHorizontalWithDuration(0.5)
+            let gameOverScene = GameOverScene(size: self.size, won: true)
+            self.view?.presentScene(gameOverScene, transition: reveal)
+        }
+        
     }
     
     
