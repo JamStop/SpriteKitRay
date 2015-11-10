@@ -15,6 +15,9 @@
 		BF7E16761BF290EF007754E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7E16741BF290EF007754E0 /* LaunchScreen.storyboard */; };
 		BF7E16811BF290EF007754E0 /* SpriteKitRayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E16801BF290EF007754E0 /* SpriteKitRayTests.swift */; };
 		BF7E168C1BF290EF007754E0 /* SpriteKitRayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E168B1BF290EF007754E0 /* SpriteKitRayUITests.swift */; };
+		BF7E169E1BF29284007754E0 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF7E169B1BF29284007754E0 /* background-music-aac.caf */; };
+		BF7E169F1BF29284007754E0 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF7E169C1BF29284007754E0 /* pew-pew-lei.caf */; };
+		BF7E16A01BF29284007754E0 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BF7E169D1BF29284007754E0 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BF7E16871BF290EF007754E0 /* SpriteKitRayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitRayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7E168B1BF290EF007754E0 /* SpriteKitRayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRayUITests.swift; sourceTree = "<group>"; };
 		BF7E168D1BF290EF007754E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7E169B1BF29284007754E0 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		BF7E169C1BF29284007754E0 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		BF7E169D1BF29284007754E0 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		BF7E16661BF290EF007754E0 /* SpriteKitRay */ = {
 			isa = PBXGroup;
 			children = (
+				BF7E16991BF29284007754E0 /* SpriteKitSimpleGameResources */,
 				BF7E16671BF290EF007754E0 /* AppDelegate.swift */,
 				BF7E166B1BF290EF007754E0 /* GameScene.swift */,
 				BF7E166D1BF290EF007754E0 /* GameViewController.swift */,
@@ -126,6 +133,24 @@
 				BF7E168D1BF290EF007754E0 /* Info.plist */,
 			);
 			path = SpriteKitRayUITests;
+			sourceTree = "<group>";
+		};
+		BF7E16991BF29284007754E0 /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E169A1BF29284007754E0 /* Sounds */,
+				BF7E169D1BF29284007754E0 /* sprites.atlas */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		BF7E169A1BF29284007754E0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E169B1BF29284007754E0 /* background-music-aac.caf */,
+				BF7E169C1BF29284007754E0 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7E169E1BF29284007754E0 /* background-music-aac.caf in Resources */,
 				BF7E16761BF290EF007754E0 /* LaunchScreen.storyboard in Resources */,
 				BF7E16731BF290EF007754E0 /* Assets.xcassets in Resources */,
+				BF7E169F1BF29284007754E0 /* pew-pew-lei.caf in Resources */,
+				BF7E16A01BF29284007754E0 /* sprites.atlas in Resources */,
 				BF7E16711BF290EF007754E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
